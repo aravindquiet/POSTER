@@ -1,0 +1,119 @@
+.cover{
+    width: 80%;
+    height: 100vh;
+    margin: 0 10%;
+    background-image: url(../IMAGES/people-are-surprised-this-cool-new-electric-scooter-30.png);
+    background-size: cover;
+    box-shadow: 0 0 10px gray;
+    background-position: right;
+    box-shadow: inset 0 0 100px  black;
+    
+
+}
+.top-content{
+    display: flex;
+    justify-content:start;
+    width: 100%;
+    height: 270px;
+    color: whitesmoke;
+    text-shadow: 0 0 10px whitesmoke;
+    
+    font-weight: bolder;
+    background-color: rgb(128, 128, 128,.5);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+    
+    }
+.left-circle{
+    color: whitesmoke;
+    text-shadow: 0 0 10px whitesmoke;
+    position: relative;
+    width: 400px;
+    height:500px ;
+    clip-path: circle(50% at 4% 6%);
+    background-image: url(../IMAGES/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position: left;
+    
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    
+}
+.center-img{
+    width: 100%;
+    height: 300px;
+    
+}
+.right-image{
+    width: 370px;
+    height:300px ;
+    background-image: url(../IMAGES/—Pngtree—grand\ opening\ shape\ png_7465681.png);
+    background-size: cover;
+    background-position: center;
+    
+
+    background-color:transparent;
+}
+.rounder{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    height: 180px;
+    justify-content:center;
+}
+.rounder-1{
+    margin: 0 10px;
+    width: 150px;
+    height: 150px;
+    background-image: url(../IMAGES/people-are-surprised-this-cool-new-electric-scooter-26.png);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid gray;
+    box-shadow: 0 0 30px rgb(49, 49, 49);
+}
+.rounder-2{
+    margin: 0 10px;
+    width: 150px;
+    height: 150px;
+    background-image: url(../IMAGES/parking-concept-illustration_114360-6874.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid gray;
+    box-shadow: 0 0 30px rgb(19, 19, 19);
+
+}
+.rounder-3{
+    margin: 0 10px;
+    width: 150px;
+    height: 150px;
+    background-image: url(../IMAGES/charging-electric-motorcycle-touchpad-displaying-charging-information_135869-438.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid rgb(92, 89, 89);
+    box-shadow: 0 0 30px rgb(58, 57, 57);
+
+
+}
+.box{
+    display: grid;
+    place-items: center;
+    color: aliceblue;
+}
+.box > img{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+.center{
+    display: grid;
+    place-items: center;
+}
+h1{
+    text-shadow: 0 0 10px wheat;
+}
+
